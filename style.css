@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:sans-serif;
+}
+/* nabigation section*/
+nav{
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+ nav ul{
+    display: flex;
+    list-style: none;
+    gap:5px;
+    padding-block:6px;
+    justify-content:right;
+    color: white;
+    justify-content: center;
+ }
+ nav ul li{
+    background-color: hotpink;
+    padding: 5px 8px;
+    color: white;
+ }
+ nav ul li:hover{
+      padding: 5px 8px;
+      background-color: white;
+      color: black;
+ }
+/* header section */
+header{
+    background-image: url(./new-year-new-me-main/images/banner/banner2.png);
+    background-repeat: no-repeat;
+    height: 800px;
+
+}
+.header-container{
+    width: 350px;
+    padding: 300px 0 200px 800px;
+
+    
+}
+.header-title{
+    font-size: 3rem;
+    padding-bottom: 15px;
+}
+.header-drescription{
+    display: block;
+    padding-bottom: 15px;
+}
+header button{
+     background-color: red;
+     padding: 15px 20px;
+     border-radius: 5px;
+     color: white;
+     border-style: none;
+     cursor: pointer;
+}
+header button:hover{
+      background-color: aqua;
+      padding: 20px 25px;
+      color: red;
+}
+/* main section*/
+main{
+    background-color:rgb(249, 244, 244);
+     
+}
+.main-container{
+    padding: 50px 150px;
+    
+
+}
+.main-section{
+    display:flex;
+    align-items: center;
+    gap: 40px;
+}
+.my-failurs-title{
+    font-size: 2.5rem;
+    font-weight: 1000;
+    padding-bottom: 30px;
+}
+.my-failures-drescription{
+    padding-bottom: 30px;
+    line-height: 22px;
+
+}
+.my-failures-mark{
+ margin-bottom: 18px;
+ display: block;
+}
+/* my future plans */
+.my-plans{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 100px;
+    font-weight: 800;
+    margin-bottom: 50px;
+    text-transform: capitalize;
+}
+/* target image */
+.skill-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+.skill-image{
+  padding-bottom: 30px;
+}
+.skill-title{
+    font-size: 1.7rem;
+    font-weight: 800;
+
+}
+.skill-sub-title{
+    color: rgb(153, 161, 167);
+    font-size: 1.5rem;
+    font-weight: 500;
+
+}
+
+/* banner section */
+.banner{
+   background-image: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%),  url('./new-year-new-me-main/images/watch.png');
+   
+   max-width: 100%;
+   background-repeat: no-repeat;
+   border-radius: 20px;
+}
+.banner-container{
+    padding:50px;
+}
+.banner-title{
+    font-size: 3rem;
+     font-weight: 900;
+     color: white;
+     padding-bottom: 30px;
+}
+.banner-btn{
+    padding: 12px 25px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    color: red;
+    cursor: pointer;
+}
+.banner-btn:hover{
+    background: lawngreen;
+    color: blanchedalmond;
+}
+
+/* footer section */
+
+.footer-container{
+    padding: 50px 150px;
+    display: flex;
+    gap: 200px;
+    background-color: black;
+    color: white;
+
+
+}
+.footer-title{
+        font-size: 1.8rem;
+        font-weight:800;
+        padding-bottom: 30px;
+}
+.footer-drescription{
+    line-height: 20px;
+    padding-bottom: 30px;
+    /* display: block; */
+
+}
+.footer-phone-numer{
+    padding-bottom: 10px;
+
+}
+.footer-email{
+    padding-bottom: 15px;
+
+}
+.footer-icon{
+    font-size: 0.8rem;
+}
+.footer-icon:hover{
+    background-color: bisque;
+}
+.title{
+    font-size: 1.3rem;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+footer input{
+    padding: 8px 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+
+}
+footer button{
+    padding: 15px 20px ;
+    border-radius: 5px;
+    color: red;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+footer button:hover{
+    background-color: blue;
+    color: white;
+}
